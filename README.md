@@ -54,9 +54,10 @@ python scanner.py [-h] [-s START_PORT] [-e END_PORT] [-o OUTPUT] [-t TIMEOUT]
    git clone https://github.com/dharun-sys/port-scanner.git
    ```
 
-2. Navigate to the project folder:
+2. Navigate to the project folder and install requirements:
    ```
    cd port-scanner
+   pip install -r requirements.txt
    ```
 
 3. Run the script using the usage command shown above.
